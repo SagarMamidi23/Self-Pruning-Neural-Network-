@@ -27,7 +27,7 @@ From these observations, I conclude that increasing λ leads to higher sparsity 
 **A matplotlib plot showing distribution of the final gate values for best model:**
 
 
-![alt text](image-1.png)
+![alt text](matplotlib-plot.png)
 
 
 The figure shows the distribution of the learned gate values across all layers for the model trained with λ = 5.00e-05. Each subplot represents a layer, and the histogram illustrates how many weights fall into different gate value ranges between 0 and 1. The red dashed line indicates the pruning threshold (10⁻²), and the green dashed line represents the mean gate value for that layer.
